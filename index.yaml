@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   qliksense-init:
   - apiVersion: v1
-    created: "2020-10-16T10:08:22.355192701Z"
+    created: "2020-10-16T10:40:43.154170634Z"
     dependencies:
     - condition: engine-crds.enabled
       name: engine-crds
@@ -20,7 +20,7 @@ entries:
   qsefe:
   - apiVersion: v1
     appVersion: "2020.06"
-    created: "2020-10-16T10:08:22.599296486Z"
+    created: "2020-10-16T10:40:43.420598824Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -269,7 +269,7 @@ entries:
       repository: '@qlik'
       version: 2.1.1
     description: Qlik Sense Enterprise on Kubernetes
-    digest: 13fc48ff1caa1114714c4b56d29367c433342ea8f4255d381a6f840660dfe3cd
+    digest: e22f11748e753999841211257da2af3a69f5504e8f09cecb5c355b896a58c5af
     home: https://www.qlik.com
     kubeVersion: '>=1.10.0-0'
     name: qsefe
@@ -278,7 +278,7 @@ entries:
     version: 1.65.82
   - apiVersion: v1
     appVersion: "2020.06"
-    created: "2020-10-16T10:08:22.81089912Z"
+    created: "2020-10-16T10:40:43.660659901Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -527,11 +527,11 @@ entries:
       repository: '@qlik'
       version: 2.1.1
     description: Qlik Sense Enterprise on Kubernetes
-    digest: 13fc48ff1caa1114714c4b56d29367c433342ea8f4255d381a6f840660dfe3cd
+    digest: e22f11748e753999841211257da2af3a69f5504e8f09cecb5c355b896a58c5af
     home: https://www.qlik.com
     kubeVersion: '>=1.10.0-0'
     name: qsefe
     urls:
     - charts/qsefe-1.65.82.tgz
     version: 1.65.82
-generated: "2020-10-16T10:08:22.353160398Z"
+generated: "2020-10-16T10:40:43.151882303Z"
