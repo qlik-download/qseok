@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  qliksense-init:
+  - apiVersion: v1
+    created: "2020-10-28T07:43:41.133197056Z"
+    dependencies:
+    - condition: engine-crds.enabled
+      name: engine-crds
+      repository: '@qlik'
+      version: 1.1.0
+    description: |
+      Helm chart for the Custom Resource Definitions used by qliksense
+    digest: 9289d5e8c13755b08c8bc7e9b067d142ffdc0ba205fa39e6ebb78323a33634c1
+    home: https://www.qlik.com
+    kubeVersion: '>=1.10.0-0'
+    name: qliksense-init
+    urls:
+    - qliksense-init-1.4.1.tgz
+    version: 1.4.1
+generated: "2020-10-28T07:43:41.130512936Z"
