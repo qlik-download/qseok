@@ -3,7 +3,7 @@ entries:
   qliksense:
   - apiVersion: v1
     appVersion: "2020.04"
-    created: "2020-12-08T10:10:44.866813786Z"
+    created: "2020-12-08T11:55:56.810328606Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -261,7 +261,7 @@ entries:
     version: 1.54.25
   - apiVersion: v1
     appVersion: "2020.04"
-    created: "2020-12-08T10:10:44.668309811Z"
+    created: "2020-12-08T11:55:56.583199579Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -515,7 +515,7 @@ entries:
     version: 1.50.27
   - apiVersion: v1
     appVersion: "2020.02"
-    created: "2020-12-08T10:10:44.470184431Z"
+    created: "2020-12-08T11:55:56.362376736Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -773,7 +773,7 @@ entries:
     version: 1.43.38
   - apiVersion: v1
     appVersion: "2019.11"
-    created: "2020-12-08T10:10:44.290177348Z"
+    created: "2020-12-08T11:55:56.15443096Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -1014,7 +1014,7 @@ entries:
       repository: '@qlik'
       version: 1.4.9
     description: Qlik Sense Enterprise on Kubernetes
-    digest: 6ee2e07feab9cea0d888a11c2efd6fff1229acbef65c354e6c0ba0c696af272e
+    digest: d52ae1c72b4ece0596b65115310828619b7f34b734f3e5e14d60701bbb65e5fe
     home: https://www.qlik.com
     kubeVersion: '>=1.10.0-0'
     name: qliksense
@@ -1023,7 +1023,7 @@ entries:
     version: 1.34.31
   qliksense-init:
   - apiVersion: v1
-    created: "2020-12-08T10:10:44.869823453Z"
+    created: "2020-12-08T11:55:56.8127127Z"
     dependencies:
     - condition: engine-crds.enabled
       name: engine-crds
@@ -1038,4 +1038,4 @@ entries:
     urls:
     - qliksense-init-1.4.1.tgz
     version: 1.4.1
-generated: "2020-12-08T10:10:44.128949555Z"
+generated: "2020-12-08T11:55:55.982166194Z"
