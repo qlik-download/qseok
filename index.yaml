@@ -1,211 +1,9 @@
 apiVersion: v1
 entries:
   qliksense:
-  - apiVersion: v2
-    appVersion: "2020.06"
-    created: "2021-03-16T09:21:41.517574734Z"
-    dependencies:
-    - name: audit
-      repository: '@qlik'
-      version: 4.1.7
-    - name: api-keys
-      repository: '@qlik'
-      version: 3.2.2
-    - condition: devMode.enabled
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 7.8.10
-    - name: redis
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.5.6
-    - name: chronos
-      repository: '@qlik'
-      version: 2.4.1
-    - name: chronos-worker
-      repository: '@qlik'
-      version: 2.3.3
-    - name: collections
-      repository: '@qlik'
-      version: 3.6.15
-    - name: data-connections
-      repository: '@qlik'
-      version: 2.8.0
-    - name: data-connector-common
-      repository: '@qlik'
-      version: 1.1.19
-    - name: data-connector-qwc
-      repository: '@qlik'
-      version: 4.2.7
-    - name: data-connector-odbc
-      repository: '@qlik'
-      version: 2.3.16
-    - name: data-connector-rest
-      repository: '@qlik'
-      version: 2.2.20
-    - name: data-connector-sap-sql
-      repository: '@qlik'
-      version: 2.0.6
-    - name: data-connector-sfdc
-      repository: '@qlik'
-      version: 2.2.30
-    - name: data-connector-nfs
-      repository: '@qlik'
-      version: 1.2.3
-    - name: data-prep
-      repository: '@qlik'
-      version: 3.286.0
-    - name: data-rest-source
-      repository: '@qlik'
-      version: 2.0.0
-    - name: dcaas
-      repository: '@qlik'
-      version: 2.5.1
-    - name: dcaas-web
-      repository: '@qlik'
-      version: 2.0.21
-    - name: edge-auth
-      repository: '@qlik'
-      version: 6.6.1
-    - name: elastic-infra
-      repository: '@qlik'
-      version: 4.1.2
-    - name: encryption
-      repository: '@qlik'
-      version: 5.3.1
-    - name: engine
-      repository: '@qlik'
-      version: 12.925.0
-    - name: eventing
-      repository: '@qlik'
-      version: 2.3.1
-    - name: feature-flags
-      repository: '@qlik'
-      version: 5.0.0
-    - name: feature-flags-config
-      repository: '@qlik'
-      version: 1.4.0
-    - name: geo-operations
-      repository: '@qlik'
-      version: 2.1.0
-    - name: groups
-      repository: '@qlik'
-      version: 3.5.2
-    - name: generic-links
-      repository: '@qlik'
-      version: 2.3.7
-    - name: hub
-      repository: '@qlik'
-      version: 2.0.55
-    - name: identity-providers
-      repository: '@qlik'
-      version: 2.2.0
-    - name: insights
-      repository: '@qlik'
-      version: 2.1.24
-    - name: keys
-      repository: '@qlik'
-      version: 1.6.16
-    - name: licenses
-      repository: '@qlik'
-      version: 2.0.33
-    - name: locale
-      repository: '@qlik'
-      version: 2.0.2
-    - name: messaging
-      repository: '@qlik'
-      version: 5.0.16
-    - name: management-console
-      repository: '@qlik'
-      version: 2.707.0
-    - name: nl-broker
-      repository: '@qlik'
-      version: 3.0.0
-    - name: nl-parser
-      repository: '@qlik'
-      version: 2.3.7
-    - name: nl-app-search
-      repository: '@qlik'
-      version: 1.4.39
-    - name: notification-prep
-      repository: '@qlik'
-      version: 2.2.3
-    - name: odag
-      repository: '@qlik'
-      version: 2.1.2
-    - name: policy-decisions
-      repository: '@qlik'
-      version: 3.3.3
-    - name: precedents
-      repository: '@qlik'
-      version: 3.0.0
-    - name: qix-datafiles
-      repository: '@qlik'
-      version: 2.0.28
-    - name: qix-sessions
-      repository: '@qlik'
-      version: 8.1.28
-    - name: qlikcommon
-      repository: '@qlik'
-      version: 2.6.4
-    - name: quotas
-      repository: '@qlik'
-      version: 2.1.7
-    - name: qlikview-client
-      repository: '@qlik'
-      version: 2.0.13
-    - name: reloads
-      repository: '@qlik'
-      version: 3.0.26
-    - name: reload-tasks
-      repository: '@qlik'
-      version: 3.2.1
-    - name: reporting
-      repository: '@qlik'
-      version: 2.1.8
-    - name: resource-library
-      repository: '@qlik'
-      version: 6.3.0
-    - name: sense-client
-      repository: '@qlik'
-      version: 2.1.120
-    - name: spaces
-      repository: '@qlik'
-      version: 3.2.3
-    - name: sharing
-      repository: '@qlik'
-      version: 6.2.65
-    - name: subscriptions
-      repository: '@qlik'
-      version: 3.0.1
-    - name: temporary-contents
-      repository: '@qlik'
-      version: 3.0.1
-    - name: tenants
-      repository: '@qlik'
-      version: 4.3.1
-    - name: transport
-      repository: '@qlik'
-      version: 2.3.1
-    - name: users
-      repository: '@qlik'
-      version: 2.2.25
-    - name: web-notifications
-      repository: '@qlik'
-      version: 3.0.2
-    - name: web-security
-      repository: '@qlik'
-      version: 2.1.12
-    description: Qlik Sense Enterprise on Kubernetes
-    digest: c3f1dd9f9beab6071b585bdeaa94cc3814834a1e4f480d04f3078cf56afd761e
-    home: https://www.qlik.com
-    kubeVersion: '>= 1.16.0-0 < 1.17.0-0'
-    name: qliksense
-    urls:
-    - qliksense-3.6.0.tgz
-    version: 3.6.0
   - apiVersion: v1
     appVersion: "2020.04"
-    created: "2021-03-16T09:21:41.168095091Z"
+    created: "2020-12-08T11:55:56.810328606Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -463,7 +261,7 @@ entries:
     version: 1.54.25
   - apiVersion: v1
     appVersion: "2020.04"
-    created: "2021-03-16T09:21:40.955458827Z"
+    created: "2020-12-08T11:55:56.583199579Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -717,7 +515,7 @@ entries:
     version: 1.50.27
   - apiVersion: v1
     appVersion: "2020.02"
-    created: "2021-03-16T09:21:40.755047722Z"
+    created: "2020-12-08T11:55:56.362376736Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -975,7 +773,7 @@ entries:
     version: 1.43.38
   - apiVersion: v1
     appVersion: "2019.11"
-    created: "2021-03-16T09:21:40.556611642Z"
+    created: "2020-12-08T11:55:56.15443096Z"
     dependencies:
     - condition: audit.enabled
       name: audit
@@ -1225,13 +1023,14 @@ entries:
     version: 1.34.31
   qliksense-init:
   - apiVersion: v1
-    created: "2021-03-16T09:21:41.52028407Z"
+    created: "2020-12-08T11:55:56.8127127Z"
     dependencies:
     - condition: engine-crds.enabled
       name: engine-crds
       repository: '@qlik'
       version: 1.1.0
-    description: 'Helm chart for the Custom Resource Definitions used by qliksense '
+    description: |
+      Helm chart for the Custom Resource Definitions used by qliksense
     digest: 9289d5e8c13755b08c8bc7e9b067d142ffdc0ba205fa39e6ebb78323a33634c1
     home: https://www.qlik.com
     kubeVersion: '>=1.10.0-0'
@@ -1239,4 +1038,4 @@ entries:
     urls:
     - qliksense-init-1.4.1.tgz
     version: 1.4.1
-generated: "2021-03-16T09:21:40.384260402Z"
+generated: "2020-12-08T11:55:55.982166194Z"
